@@ -9,8 +9,9 @@ body {
 }
 
 .hero-section {
+  position: relative;
   min-height: 100vh;
-  background-image: url("/kupos/public/hero-image.webp");
+  background-image: url("public/hero-image.webp");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,6 +28,12 @@ body {
     max-width: 280px;
     margin-right: auto;
   }
+}
+.hero-image-test{
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  object-position: center;
 }
 .nav-buttons {
   display: flex;
@@ -223,7 +230,7 @@ body {
   display: flex;
   min-height: 500px;
   padding: 0 120px;
-  background-image: url("/kupos/public/download-app-bg.png");
+  background-image: url("public/download-app-bg.png");
   & div:nth-child(1) {
     flex: 1;
     position: relative;
