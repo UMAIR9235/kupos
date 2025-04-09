@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <nav>
+        <img src="/public/kupos-logo.svg" alt="logo" class="logo" />
+        <div class="nav-buttons">
+          <button class="">
+            <img src="/public/ticket.svg" alt="" />
+            Manage Ticket
+          </button>
+          <button class="">
+            <img src="/public/headphones.svg" alt="" />
+          </button>
+          <button class="">
+            <img src="/public/user.svg" alt="" />
+          </button>
+          <div class="lang-toggle-btn">
+            <span>IS</span>
+            <span>IN</span>
+          </div>
+        </div>
+      </nav>
+      <div class="search-bar">
+        <div class="floating-container"></div>
+        <div class="checkbox-btns">
+          <span>Buses intercity</span>
+          <div>
+            <input id="bus-tickets" type="checkbox" />
+            <label for="bus-tickets">Bus tickets</label>
+          </div>
+          <div>
+            <input id="bus-tickets" type="checkbox" />
+            <label for="bus-tickets">Coupon book</label>
+          </div>
+        </div>
+        <div class="search-inputs">
+          <div>
+            <label for="origin">Origin</label>
+            <div>
+              <img src="/public//origin.svg" alt="" />
+              <input type="text" />
+            </div>
+          </div>
+          <div>
+            <label for="origin">Destination</label>
+            <div>
+              <img src="/public//destination.svg" alt="" />
+              <input type="text" />
+            </div>
+          </div>
+          <div>
+            <label for="origin">One way</label>
+            <div>
+              <img src="/public//icon_calendar.png" alt="" />
+              <input type="date" />
+            </div>
+          </div>
+          <div>
+            <label for="origin">Round trip (Optional)</label>
+            <div>
+              <img src="/public//icon_calendar.png" alt="" />
+              <input type="date" />
+            </div>
+          </div>
+          <button>SEARCH</button>
+        </div>
+      </div>
+    </section>
+    <section class="section-2">
+      <h2>why <span>kupos.cl?</span></h2>
+      <div class="why-kupos-container">
+        <div class="why-kupos-card">
+          <img src="/public/happy_travelers.svg" alt="" />
+
+          <p>Happy travelers</p>
+          <span>+7.3 millions</span>
+        </div>
+        <div class="why-kupos-card">
+          <img src="/public//satisfaction_guaranteed.svg" alt="" />
+
+          <p>Satisfaction Guaranteed</p>
+          <span>+82k excellent reviews</span>
+        </div>
+        <div class="why-kupos-card">
+          <img class="transport-img" src="/public/transport.svg" alt="" />
+
+          <p>Busses, transfers, trains and more</p>
+          <span>One app for all ground transportation </span>
+        </div>
+        <div class="why-kupos-card">
+          <img src="/public//made_in_chile.svg" alt="" />
+
+          <p>Made in Chile</p>
+          <span>with love</span>
+        </div>
+      </div>
+      <div class="download-app-container">
+        <div>
+          <img
+            src="/public/home-cellphones.webp"
+            alt=""
+            class="cellphones-image"
+          />
+        </div>
+        <div>
+          <div class="download-app-btns-container">
+            <h2>Download our app free!</h2>
+            <p>Create your account and pay your tickets with</p>
+            <img src="/public/kupos_pay.svg" alt="" />
+            <div>
+              <img src="/public/google-play.webp" alt="" />
+              <img src="/public/app-store.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-main">
+        <img src="/public/kupos-logo2.svg" alt="" />
+        <div>
+          <div class="footer-links">
+            <div class="links-col links-col-1">
+              <h5>Our company</h5>
+              <ul>
+                <li>About kupos</li>
+                <li>Our partners</li>
+                <li>Our investors</li>
+                <li>Careers</li>
+                <li>Press</li>
+                <li>Contact us</li>
+              </ul>
+            </div>
+            <div class="links-col links-col-2">
+              <h5>Useful Details</h5>
+              <ul>
+                <li>Frequently asked questions</li>
+                <li>Terms and conditions</li>
+                <li>Privacy policy</li>
+                <li>Travel Agents</li>
+                <li>Sitemap</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-cta">
+            <div class="newsletter-form">
+              <h5>Join our newsletter!</h5>
+              <div>
+                <input type="text" placeholder="Email ID" />
+                <button>SEND</button>
+              </div>
+            </div>
+            <div class="footer-socials">
+              <img src="/public/icon-facebook.webp" alt="" />
+              <img src="/public/icon-instagram.webp" alt="" />
+              <img src="/public/icon-twitter.webp" alt="" />
+              <img src="/public/icon-wifi.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>PasajeBus SpA ® 2020. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
